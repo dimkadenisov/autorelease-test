@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dimkadenisov/autorelease-test/issues"
   },
-  "homepage": "https://github.com/dimkadenisov/autorelease-test#readme"
+  "homepage": "https://github.com/dimkadenisov/autorelease-test#readme",
+  "dependencies": {
+    "highlight-string": "^0.1.2"
+  }
 }
