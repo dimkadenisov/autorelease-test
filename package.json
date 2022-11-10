@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "echo \"Build Command\"",
-    "test": "echo \"Test command\""
+    "test": "echo \"Test command\"",
+    "lint": "echo \"Lint command\""
   },
   "repository": {
     "type": "git",
