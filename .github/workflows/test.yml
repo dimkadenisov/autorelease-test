@@ -12,7 +12,8 @@ on:
       - master
 
 jobs:
-  build:
+  test:
+    name: test
     runs-on: ubuntu-latest
 
     strategy:
