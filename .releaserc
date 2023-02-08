@@ -1,5 +1,45 @@
 {
   "branches": [
     "master"
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING",
+            "BREAKING_CHANGE",
+            "BREAKING_CHANGES",
+            "BREAKING-CHANGE",
+            "BREAKING-CHANGES"
+          ]
+        }
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES",
+            "BREAKING",
+            "BREAKING_CHANGE",
+            "BREAKING_CHANGES",
+            "BREAKING-CHANGE",
+            "BREAKING-CHANGES"
+          ]
+        },
+        "writerOpts": {
+          "commitsSort": [
+            "subject",
+            "scope"
+          ]
+        }
+      }
+    ]
   ]
 }
