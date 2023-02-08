@@ -2,7 +2,7 @@ Tiny util to highlight given string in text.
 
 ## API
 
-This package contains only one function exported as `getChunks`. This method searches a string of text for a set of search terms and returns an array of chunks that describe the matches found. Better to see an example:
+This package contains only one function exported as `getChunks`. This method searches a string of text for a set of search terms and returns an array of chunks that describe the matches found. For example:
 
 ```js
 import { getChunks } from 'highlight-string';
