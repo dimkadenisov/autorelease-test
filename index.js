@@ -1,4 +1,3 @@
-import { getChunks } from 'highlight-string';
-const a = getChunks({ text: 'quick brown fox', substrings: ['brown'] });
+const a = 10;
 
-console.log('testing1', a[0].text);
+console.log('testing1', a);
