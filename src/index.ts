@@ -1,3 +1,3 @@
-export function test(id: string) {
+export function test1(id: string) {
   return id.toUpperCase();
 }
