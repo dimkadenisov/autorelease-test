@@ -1,3 +1,2 @@
-export function test2(id: string) {
-  return id.toUpperCase();
-}
+export { getChunks } from './functions/getChunks';
+export { GetChunksType } from './types';
