@@ -7,7 +7,7 @@ const cases = [
     substrings: ['every'],
     expected: [
       {
-        text: 'Hello ',
+        text: 'Hello  ',
         highlighted: false,
       },
       {
