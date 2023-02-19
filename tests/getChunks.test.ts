@@ -3,11 +3,11 @@ import { getChunks } from '../src/functions/getChunks';
 const cases = [
   {
     testCaseName: 'Simple match with one substrings and case insensitive',
-    text: 'Hello everyone!',
+    text: 'Hello  everyone!',
     substrings: ['every'],
     expected: [
       {
-        text: 'Hello ',
+        text: 'Hello  ',
         highlighted: false,
       },
       {
