@@ -17,6 +17,7 @@
             "BREAKING-CHANGES"
           ]
         },
+        "preset": "angular",
         "releaseRules": [
           {
             "release": "patch",
